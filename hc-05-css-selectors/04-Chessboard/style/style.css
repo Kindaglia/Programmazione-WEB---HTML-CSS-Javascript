@@ -1,0 +1,26 @@
+/**
+ * style.css
+ *
+ * A series of styles to transform the 'Red Hot Chili Peppers' page
+ * Style the HTML elements according to the following instructions
+ * Do not change the HTML file to do this.  write only css.
+ */
+body{
+  background-color: rgb(223, 203, 203);
+}
+
+ td {
+  width: 20px;
+  height: 20px;
+ }
+ th{
+  width: 20px;
+  height: 20px;
+ }
+
+ .orange{
+   background-color: orange;
+ }
+ .dark {
+   background-color: black;
+ }

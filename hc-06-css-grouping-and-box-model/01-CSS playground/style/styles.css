@@ -1,0 +1,80 @@
+/* Dark mode */
+body{
+    background-color: rgba(54, 50, 50, 0.993);
+    color: aliceblue;
+    
+}
+
+
+/* Custom page */
+h1 {
+    color: rgb(79, 157, 221)
+}
+
+h2,h3,h4 {
+    color: rgb(79, 221, 178)
+    
+}
+
+
+.paragrafo{
+    color: aliceblue;
+}
+
+
+a {
+    color: rgb(97, 169, 236);
+}
+
+table, th, td {
+    border: 1px solid;
+  }
+
+.sameLine{
+    display: inline;
+}
+
+/* Custom page with div and the page focus left*/
+#header{
+    text-align: center; width:50%;
+}
+
+#content1{
+    text-align: left; width:49%; display: inline-block;
+}
+#content4{
+    text-align: center;  width:50%; 
+}
+
+#content2{
+    background-color: gray;
+    text-align: right; display: inline-block;
+    border: 1px solid red;
+    border-radius: 4px;
+}
+
+
+#content3{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    text-align: center; width:50%;  display: inline-block;
+}
+
+
+
+#content4 img{
+    border: 1px solid purple;
+    border-radius: 4px;
+    padding: 5px;
+    width: 200px; height: 100px;
+}
+
+#footer{
+    text-align: center;  width:50%;
+}
+
+#content3 img{
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    padding: 5px;
+    width: 150px;
+}

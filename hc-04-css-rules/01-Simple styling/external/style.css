@@ -1,0 +1,26 @@
+/**
+ * style.css
+ */
+
+ h{
+    color: black; 
+    font-size: 8em;
+  }
+
+  body{
+    background-color: gray;
+  }
+
+  p{
+    display: block; 
+    border-style:double; 
+    font-size: 3em; 
+  }
+  p2{
+    background-color: rgb(162, 202, 17); 
+    display: block; 
+    font-family: fantasy; 
+    font-size: 3em; 
+    border: rgb(108, 131, 5) dashed; 
+  }
+

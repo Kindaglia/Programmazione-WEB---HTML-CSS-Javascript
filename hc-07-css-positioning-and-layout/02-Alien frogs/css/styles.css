@@ -1,0 +1,111 @@
+
+
+body{
+       
+    background-color: darkgrey;
+}
+
+
+.frog{
+    /*dimension*/
+    width: 6em;
+    height: 3em;
+    /*border*/
+    border-style:solid;
+    border-color: rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 0.9em;
+    display: inline-block;
+    margin: 5%;
+    /*Eyes*/
+    
+
+}
+
+.frog::before{
+    display: block;
+    content: "0";
+    /*border*/
+    border-style:solid;
+    border-color:black;
+    border-radius: 120%;
+    /*position*/
+    position: relative ;
+    left: -10%;
+    top: -30%;
+    /*dimension*/
+    width: 20%;
+    
+}
+.frog::after{
+    display: block;
+    content: "0";
+    /*border*/
+    border-style:solid;
+    border-color:black;
+    border-radius: 120%;
+    /*position*/
+    position: relative ;
+    left: 85%;
+    top: -115%;
+    /*dimension*/
+    width: 20%;
+    padding-top: 3%;
+    text-align: center;
+    
+}
+
+
+/*frog orange small dark-Eyes-O*/
+.frog.orange{
+    /*color*/
+    color: black;
+    background-color: rgb(189, 73, 20);
+}
+/*frog green*/
+.frog.green{
+    /*color*/
+    color: black;
+    background-color: rgb(65, 119, 14);
+}
+
+
+.frog.orange.dark-Eyes-O::after,.frog.orange.dark-Eyes-O::before{
+    color: aliceblue;
+    background-color: red;
+}
+
+.frog.orange.light-Eyes-O::after,.frog.orange.light-Eyes-O::before{
+    color: black;
+    background-color: rgb(211, 95, 120);
+}
+
+.frog.green.dark-Eyes-G::after,.frog.green.dark-Eyes-G::before{
+    color: aliceblue;
+    background-color: rgb(13, 94, 21);
+}
+.frog.green.light-Eyes-G::after,.frog.green.light-Eyes-G::before{
+    color: black;
+    background-color: rgb(17, 168, 32);
+}
+/*big forg*/
+.big{
+    width:  10em;
+}
+
+.frog.orange.dark-Eyes-O:hover::before, .frog.orange.dark-Eyes-O:hover::after {
+    color: aliceblue;
+    background-color: black;
+}
+.frog.orange.light-Eyes-O:hover::before, .frog.orange.light-Eyes-O:hover::after {
+    color: aliceblue;
+    background-color: black;
+}
+.frog.green.dark-Eyes-G:hover::before, .frog.green.dark-Eyes-G:hover::after {
+    color: aliceblue;
+    background-color: black;
+}
+.frog.green.light-Eyes-G:hover::before, .frog.green.light-Eyes-G:hover::after {
+    color: aliceblue;
+    background-color: black;
+}

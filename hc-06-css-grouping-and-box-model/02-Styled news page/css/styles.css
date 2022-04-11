@@ -1,0 +1,73 @@
+
+
+/*normalize*/
+*{
+    margin:  0;
+}
+
+body, html{
+    width: 100%;
+    max-width: 100%;
+    background-color: gray;
+    color: black;
+}
+
+#container{
+    width: 100%;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*custom page*/
+
+h1{
+    background-color: black;
+    color: aliceblue;
+    font-size: 3em;
+    padding: 0.2em;
+
+}
+
+nav{
+    width: 100%; /* Full width */
+    background-color:rgb(99, 95, 91);
+    color: burlywood;
+    text-align: right;
+}
+
+/*custom nav*/
+nav ul{
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+}
+
+nav li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+nav li{
+    display: inline-block;
+    padding: 0.7em;
+}
+
+nav li:hover{
+    background-color:rgb(184, 178, 171);
+}
+
+/*Custom anchor element*/
+#main{
+    font-size: 3em;
+    
+}
+#section{
+    font-size: 2.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+#article{
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+}

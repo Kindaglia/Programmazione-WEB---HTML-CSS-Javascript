@@ -1,0 +1,96 @@
+
+
+/*normalize*/
+*{
+    margin:  0;
+}
+
+body, html{
+    width: 100%;
+    max-width: 100%;
+    background-color: gray;
+    color: aliceblue;
+}
+
+#container{
+    width: 100%;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*custom page*/
+
+h1{
+    background-color: black;
+    color: aliceblue;
+    font-size: 3em;
+    padding: 0.2em;
+
+}
+
+nav{
+    background-color:rgb(99, 95, 91);
+    color: burlywood;
+    text-align: right;
+}
+
+/*custom nav*/
+nav ul{
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+}
+
+nav li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+nav li{
+    display: inline-block;
+    padding: 0.7em;
+}
+
+nav li:hover{
+    background-color:rgb(184, 178, 171);
+}
+
+/*responsive menu*/
+
+
+#iconMenu{
+    width: 1em;
+    display: inline-block;
+    display: none;
+}
+
+
+
+@media only screen and (max-width: 330px){
+    #iconMenu{
+        display: inline-block;
+        padding: 5%;
+    }
+    ul li{
+        display: none;
+    }
+    
+    #iconMenu:active {
+        background-color: aliceblue;
+    }
+
+    #btn_iconMenu:checked ~ ul li{
+        display:block !important;
+        text-align: center;
+        border-style:groove;
+        font-size: 1.7em;
+    }
+
+}
+
+#btn_iconMenu {
+    display: none;
+}
+
+
