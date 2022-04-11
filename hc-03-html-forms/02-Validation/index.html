@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Autor" content="matteo-drago">
+    <meta name="description" content="Astronaut application">
+    <link rel=" icon" type="img/ico" href="img/icon.png">
+    <title>Astronaut application</title>
+    <link href="/css/styles.css" rel="stylesheet">
+    
+    
+    
+
+</head>
+<body>
+
+    <!--Intro -->
+    <h1>Astronaut</h1>  
+    <hr/>
+
+    <h2>Form for Astronaut </h2>  
+    <p>
+        To apply, enter your data: 
+    </p>
+
+    <p>
+        <!-- Send the data -->
+        <form action="https://en4z1dkgqh88.x.pipedream.net" method="post" >
+            <!-- name -->
+            <label for="form_name">Name:</label>
+            <input type="text" name="name" id="form_name" required>
+
+            <!-- Surname -->
+            <label for="form_surname">Surname:</label>
+            <input type="text" name="surname" id="form_surname" required>
+            <br/>
+            <!-- Mission -->
+            <label for="form_mission">Mission: </label>
+            <input type="text" name="mission" list="optionID" id="form_mission" required
+            pattern="[Nn]ear-Earth Object Surveyor|[Ss]pherex|[Ee]uropa Clipper">
+                <datalist id="optionID">
+                <option>Near-Earth Object Surveyor</option>
+                <option>Spherex</option>
+                <option>Europa Clipper</option>
+            </datalist>
+            <br/>
+            <!-- Age -->
+            <label for="form_age">How old are you?</label>
+            <input type="number" min="18" max="70" step="1" id="form_age" name="age"
+            pattern="\d+">
+            <br/>
+            <!-- Gender -->
+            <label for="form_gender">Gender: </label>
+            <input type="radio" name="gender" id="option_male" required>
+              <label for="option_male">Male</label> 
+             <input type="radio" name="gender" id="option_female"required>
+              <label for="option_female">Female</label> 
+            <input type="radio" name="gender" id="option_other" required>
+              <label for="option_other">Other</label> <br/>
+            </datalist>
+            <!-- hair color -->
+            <label for="form_hair">Hair</label>
+            <input type="text" name="hair" list="hair_option" id="form_hair" required
+            pattern="[Ll]ong|[Ss]hort|[Nn]ull">
+                <datalist id="hair_option">
+                <option>Long</option>
+                <option>Short</option>
+                <option>Null</option>
+            </datalist> 
+            <input type="color" id="head" name="head"value="#4c2b20" >
+            <br/>
+            <!--color eyes -->
+            <label for="form_eyes">Color eyes: </label>
+            <input type="color" id="form_eyes" name="eyes"value="#40E0D0" ><br/>
+
+            <!-- Max weight -->
+            <label for="form_weight">Weight: </label>
+            <input type="number" name="weight" id="form_weight" min="1" max="100"  required> <br/>
+            <!-- Max biography  -->   
+            <label for="form_biography">Biography: </label>
+            <textarea type="text" name="biography" id="form_biography"  max="250"  required> </textarea> <br/>
+
+            <br/><br/><br/>
+            <fieldset>
+                <!-- Contacts -->
+                <legend> Contacts: </legend>  <br/>
+                <!-- Email -->
+                <label for="form_email">Email</label>
+                <input type="email" name="user_email" id="form_email" required>
+                <!-- Phone -->
+                <label for="form_phone">Phone</label>
+                <input type="tel" name="user_phone" id="form_phone" required> <br/>
+                <!-- Address -->
+                Address :
+                <input type="text" name="user_street" id="form_street" placeholder="Street" required>
+                <input type="text" name="user_street" id="form_street" placeholder="City" required>
+                <br/><br/> 
+            </fieldset><br/>
+        <button type="submit">Send Form</button>
+      </form >
+    </p>
+</body>
+</html>

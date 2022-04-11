@@ -1,0 +1,44 @@
+/* Dark mode */
+body{
+    background-color: rgba(54, 50, 50, 0.993);
+    color: aliceblue;
+    
+}
+
+/* Custom page */
+
+
+
+h1 {
+    text-align: center;
+    color: rgb(79, 157, 221)
+    
+}
+
+
+h2{
+    text-align: center;
+    color: rgb(221, 207, 79)
+}
+
+h3,h4 {
+    color: rgb(79, 221, 178)
+    
+}
+
+a {
+    color: rgb(97, 169, 236);
+}
+
+table{
+   border-color: aliceblue;
+}
+
+input:valid {
+    border: 2px solid black;
+  }
+
+  fieldset {
+    width: 30em; 
+    min-height: 50px; }
+

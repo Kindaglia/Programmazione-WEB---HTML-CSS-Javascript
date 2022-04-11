@@ -1,0 +1,52 @@
+/* Dark mode */
+body{
+    background-color: rgba(54, 50, 50, 0.993);
+    color: aliceblue;
+    
+}
+
+
+/* Custom page */
+h1 {
+    color: rgb(79, 157, 221)
+}
+
+h2,h3,h4 {
+    color: rgb(79, 221, 178)
+    
+}
+
+
+.paragrafo{
+    color: aliceblue;
+}
+
+
+a {
+    color: rgb(97, 169, 236);
+}
+
+table, th, td {
+    border: 1px solid;
+  }
+
+.sameLine{
+    display: inline;
+}
+
+/* Custom page with div */
+#header{
+    text-align: center;
+}
+
+#content1{
+    text-align: left; width:49%; display: inline-block;
+}
+
+#content2{
+    text-align: right; width:50%;  display: inline-block;
+}
+
+#footer{
+    text-align: center;
+}

@@ -1,0 +1,23 @@
+/* Dark theme */
+
+body{
+    color: aliceblue;
+    background-color: rgba(54, 50, 50, 0.993);
+}
+
+
+/* Custom page */
+h1 {
+    text-align: center;
+    color: rgb(79, 157, 221)
+    
+}
+
+strong{
+    color: aquamarine;
+}
+
+em{
+    color:yellow ;
+}
+
