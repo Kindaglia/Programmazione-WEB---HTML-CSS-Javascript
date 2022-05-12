@@ -11,8 +11,7 @@ Money(1000000): 1000000 dollars ;)
 
 
 ## Exercises:
-I created a function that prints the sentence taking as parameters the variables assigned subsequently.
-
+I created a function and then called it and printed the result
 
 
 

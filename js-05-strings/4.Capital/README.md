@@ -8,7 +8,7 @@ world".
 
 
 # Exercise Executed
-I created a function using the reverse of the string as a comparison using the function from the previous exercise
+I created a function and then called it and printed the result
 
 
 
