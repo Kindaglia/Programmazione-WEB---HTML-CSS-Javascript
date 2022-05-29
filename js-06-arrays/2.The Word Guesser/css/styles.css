@@ -1,0 +1,8 @@
+body{
+    background-color: gray;
+    display: block;
+}
+input[type="text"]
+{
+    width: 2%;
+}

@@ -1,0 +1,20 @@
+
+body{
+    text-align: center;
+    background-color: gray;
+}
+#container{
+    font-size: large;
+    background-color: gainsboro;
+    box-sizing: content-box;
+}
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid black;
+    padding: 10px;
+}
+
+input{
+    text-align: center;
+}
