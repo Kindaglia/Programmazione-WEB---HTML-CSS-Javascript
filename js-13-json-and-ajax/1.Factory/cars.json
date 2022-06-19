@@ -1,0 +1,57 @@
+[
+  {
+    "idCar": 16616,
+    "model": "Tesla Roadster",
+    "elettric": true,
+    "parts": ["wheels", "engine"],
+    "details": {
+      "km": 30000,
+      "years": 2021
+    },
+    "physical key": null
+  },
+  {
+    "idCar": 16555,
+    "model": "Tesla model 3",
+    "elettric": true,
+    "parts": ["wheels", "engine"],
+    "details": {
+      "km": 20000,
+      "years": 2020
+    },
+    "physical key": null
+  },
+  {
+    "idCar": 16444,
+    "model": "Tesla model y",
+    "elettric": true,
+    "parts": ["wheels", "engine"],
+    "details": {
+      "km": 0,
+      "years": 2022
+    },
+    "physical key": null
+  },
+  {
+    "idCar": 14650,
+    "model": "Tesla model x",
+    "elettric": true,
+    "parts": ["wheels", "engine"],
+    "details": {
+      "km": 15000,
+      "years": 2019
+    },
+    "physical key": null
+  },
+  {
+    "idCar": 12820,
+    "model": "Tesla model s",
+    "elettric": true,
+    "parts": ["wheels", "engine"],
+    "details": {
+      "km": 0,
+      "years": 2022
+    },
+    "physical key": null
+  }
+]

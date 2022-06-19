@@ -1,0 +1,10 @@
+{
+    "name": "Tesla GigaBerlin",
+    "elettric": true,
+    "mode": [
+        {
+            "IdCar" : 16616,
+            "model" : "Tesla Roadster"
+        }
+    ]
+}

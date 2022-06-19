@@ -1,0 +1,11 @@
+{
+  "IdFactory": 81516,
+  "name": "Tesla Gigafactory",
+  "exploded": false,
+  "product": ["model 3", "Powerwall", "Powerpack"],
+  "contacts": {
+    "email": "press@tesla.com",
+    "emailFactory": "Gigafactory1@tesla.com"
+  },
+  "freeWater": null
+}
